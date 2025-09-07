@@ -1,0 +1,1043 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------------------------- */
+
+/* Código para ajustar o container da página =) */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        max-width: 900px;
+    }
+}
+/* Código para ajustar o container da página =) */
+@font-face {
+  font-family: Amoresa;
+  src: url(assets/fonts/Regular.otf);
+}
+
+/* Estilo - Sessão 2 */
+.sessao-2{
+    background-image: url("assets/02-DOBRA-IMERSAO-REAPROXIMACAO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 3 */
+.sessao-3{
+    background-color: #080000;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -36px;
+}
+
+.sessao-3 .sessao-3-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-3 .img-title{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-3 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-3 .col{
+    background-color: #141414;
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.sessao-3 .col .alinhamento-interno-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #980014;
+    background-color: #000;
+}
+.sessao-3 .img-1{
+    height: 40px;
+}
+
+.sessao-3 .text-1{
+    font-family: "Lora", Sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #FFF;
+    text-align: center;
+    width: 420px;
+    margin-top: 20px;
+}
+.sessao-3 .text-1 span{
+    color: red;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 4 */
+.sessao-4{
+    background-image: url("assets/003-DOBRA-IMERSAO-REAPROXIMACAO.webp");
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -36px;
+}
+
+.sessao-4 .sessao-4-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-4 .img-title{
+    height: 54px;
+    margin-bottom: 20px;
+}
+
+.sessao-4 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-4 p{
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 500px;
+}
+.sessao-4 p strong{
+    text-decoration: underline;
+}
+.sessao-4 .cta-button {
+    background-color: #980014;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #C40003;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sessao-4 .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sessao-4 .pulse {
+    animation: pulse-animation-4 2s infinite;
+}
+
+@keyframes pulse-animation-4 {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.sessao-4 .col{
+    background-color: #141414;
+    width: 500px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.sessao-4 .col .alinhamento-interno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sessao-4 .col .alinhamento-interno-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #980014;
+    background-color: #000;
+}
+.sessao-4 .img-1{
+    height: 24px;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 5 */
+.sessao-5{
+    background-image: url("assets/04-DOBRA-IMERSAO-REAPROXIMACAO.webp");
+    background-position: center bottom;
+    background-size: cover;
+    background-color: #080000;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.sessao-5 .sessao-5-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-5 .img-title{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-5 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-5 .col-1, .sessao-5 .col-2{
+    background-color: #141414;
+    width: 100%;
+    padding: 20px;
+}
+
+.sessao-5 .alinhamento-interno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.sessao-5 .col-1 .alinhamento-interno-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #980014;
+    background-color: #000;
+}
+.sessao-5 .col-1 .img-flecha{
+    width: 260px;
+    margin-top: -35px;
+    margin-bottom: 60px;
+}
+
+.sessao-5 .col-1 .img-1{
+    width: 100%;
+}
+
+.sessao-5 .col-1 .text-1{
+    font-family: "Amoresa";
+    font-size: 20px;
+    font-weight: 500;
+    color: #C40003;
+    margin-top: 20px;
+}
+
+.sessao-5 .col-1 .text-2{
+    font-family: "Sora", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sessao-5 .col-1 .text-3{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 100;
+    color: #FFF7EB;
+}
+
+.sessao-5 .col-2 .alinhamento-interno-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #980014;
+    background-color: #000;
+}
+.sessao-5 .col-2 .img-flecha{
+    width: 260px;
+    margin-top: -35px;
+    margin-bottom: 60px;
+}
+
+.sessao-5 .col-2 .img-1{
+    width: 100%;
+}
+
+.sessao-5 .col-2 .text-1{
+    font-family: "Amoresa";
+    font-size: 20px;
+    font-weight: 500;
+    color: #C40003;
+    margin-top: 20px;
+}
+
+.sessao-5 .col-2 .text-2{
+    font-family: "Sora", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.sessao-5 .col-2 .text-3{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 100;
+    color: #FFF7EB;
+}
+
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 6 */
+.sessao-6{
+    background-image: url("assets/05-DOBRA-IMERSAO-REAPROXIMACAO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 7 */
+.sessao-7{
+    background-color: #080000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sessao-7 .sessao-7-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-7 img{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-7 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-7 p{
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+.sessao-7 .cta-button {
+    background-color: #980014;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #C40003;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sessao-7 .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sessao-7 .pulse {
+    animation: pulse-animation-7 2s infinite;
+}
+
+@keyframes pulse-animation-7 {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 8 */
+.sessao-8{
+    background-image: url("assets/06-DOBRA-IMERSAO-REAPROXIMACAO.webp");
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+    margin-bottom: -36px;
+    z-index: 1;
+}
+.sessao-8 .alinhamento-interno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sessao-8 .img-title{
+    height: 18px;
+    margin-bottom: 20px;
+}
+.sessao-8 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 420px;
+}
+.sessao-8 .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #141414;
+    padding: 40px;
+}
+.sessao-8 .img-1{
+    width: 350px;
+}
+.sessao-8 .img-2{
+    width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sessao-8 .text-1{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.sessao-8 .text-2{
+    width: 580px;
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    color: #FFF7EB;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 9 */
+.sessao-9{
+    background-image: url("assets/07-DOBRA-IMERSAO-REAPROXIMACAO.webp");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.sessao-9 .sessao-9-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-9 .img-title{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-9 .logo-col{
+    width: 235px;
+    margin-bottom: 20px;
+}
+
+.sessao-9 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-9 h2 span{
+    color: #FF0004;
+}
+
+.sessao-9 .alinhamento-interno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.sessao-9 .col-1{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.sessao-9 .col-1 .espacamento{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+}
+.sessao-9 .progress{
+    background-color: #980014;
+    width: 100%;
+    height: 18px;
+}
+.sessao-9 .progress-qtd{
+    background-color: red;
+    width: 65%;
+    height: 18px;
+}
+.sessao-9 .col-1 .text-1{
+    text-align: left;
+    font-family: "Sora", Sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #980014;
+    width: 100%;
+    margin-top: 10px;
+}
+.sessao-9 .col-1 .text-2{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Sora", Sans-serif;
+    letter-spacing: 0;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sessao-9 .col-1 .text-2 span{
+    text-decoration: underline;
+}
+.sessao-9 .col-1 .text-3{
+    text-align: left;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000;
+    width: 100%;
+}
+.sessao-9 .col-1 .emoji{
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.sessao-9 .col-1 .text-4{
+    background-color: #980014;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+}
+.sessao-9 .col-1 .text-5{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.sessao-9 .col-1 .text-5 span{
+    color: red;
+    text-decoration:line-through;
+}
+.sessao-9 .col-1 .text-6{
+    width: 100%;
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #000;
+}
+.sessao-9 .col-1 .text-7{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #00A209;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sessao-9 .col-1 .text-8{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8F8F8F;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.sessao-9 .cta-button {
+    background-color: #00A209;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #008F08;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sessao-9 .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sessao-9 .pulse {
+    animation: pulse-animation-9 2s infinite;
+}
+
+@keyframes pulse-animation-9 {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.sessao-9 .col-2{
+    background-color: #262626;
+    width: 100%;
+    height: 771.03px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sessao-9 .col-2 .text-3{
+    text-align: left;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #414141;
+    width: 100%;
+}
+.sessao-9 .col-2 .emoji{
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.sessao-9 .col-2 .espacamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.sessao-9 .col-2 .text-4{
+    background-color: #464646;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+}
+.sessao-9 .col-2 .text-7{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #00A209;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sessao-9 .cta-button-2 {
+    background-color: #525252;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #525252;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #292929;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 10 */
+.sessao-10{
+    background-color: #262626;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sessao-10 .sessao-10-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-10 img{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-10 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+
+.sessao-10 p{
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 420px;
+}
+.sessao-10 .cta-button {
+    background-color: #980014;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #C40003;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sessao-10 .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sessao-10 .pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 11 */
+.sessao-11{
+    background-image: url("assets/FUNDO-SOBRE-PEDRO.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sessao-11 .largura-coluna{
+    width: 450px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.sessao-11 p{
+    text-align: left;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #FFF7EB;
+    line-height: 24px;
+}
+.sessao-11 p span{
+    font-family: "Sora", Sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    color: #C40003;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 12 */
+.sessao-12{
+    background-image: url("assets/02-DOBRA-IMERSAO-REAPROXIMACAO.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Sessão 13 */
+.sessao-13{
+    background-color: #090909;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sessao-13 .sessao-13-alinhamento{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-13 img{
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.sessao-13 h2{
+    font-family: "Sora", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.sessao-13 .accordion {
+    font-family: "Sora", sans-serif;
+    font-weight: 200;
+    background-color: #141414;
+    color: #FFF7EB;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #980014;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.sessao-13 .panel {
+    background-color: #141414;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 13px;
+    width: 100%;
+}
+
+.sessao-13 .panel p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 20px;
+    font-family: "Sora", sans-serif;
+    border: 1px solid #FFF7EB;
+    font-weight: 200;
+}
+/* -------------------------------------------- */
+
+/* Estilo - Videos */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9 / 16 = 0.5625) */
+    height: 0;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* -------------------------------------------- */
