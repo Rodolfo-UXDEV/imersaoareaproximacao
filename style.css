@@ -44,6 +44,10 @@ table {
 }
 /* -------------------------------------------- */
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Código para ajustar o container da página =) */
 body {
     margin: 0px;
@@ -58,8 +62,8 @@ body {
 
 @media (max-width: 576px) {
     .container {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
     }
 }
 
@@ -85,6 +89,151 @@ body {
   font-family: Amoresa;
   src: url(assets/fonts/Regular.otf);
 }
+
+/* Estilo - Sessão 1 */
+.sessao-1{
+    background-image: url("assets/1-DOBRA-IMERSAO-REAPROXIMACAO.webp");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.sessao-1 .sessao-1-alinhamento{
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.sessao-1 .img-title{
+    height: 54px;
+    margin-bottom: 20px;
+}
+
+.sessao-1 h2{
+    font-family: Sora, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: left;
+    width: 398px;
+}
+
+.sessao-1 h2 span{
+    color: red;
+    font-weight: bold;
+}
+
+.sessao-1 .texto1{
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 440px;
+    margin-top: 14px;
+}
+.sessao-1 .texto1 span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.sessao-1 .cta-button {
+    background-color: #980014;
+    font-family: "Sora", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #C40003;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 60px 20px 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sessao-1 .cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sessao-1 .pulse {
+    animation: pulse-animation-4 2s infinite;
+}
+
+@keyframes pulse-animation-4 {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.sessao-1 .img-icon{
+    width: 16px;
+}
+.sessao-1 .text{
+    font-family: "Sora", Sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 200;
+    color: #FFF;
+    text-align: left;
+}
+.sessao-1 .alinhamento{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+.sessao-1 .alinhamento-2{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+@media (max-width: 576px) {
+    .sessao-1{
+        background-image: url("assets/1-DOBRA-MOBILE-IMERSAO-REAPROXIMACAO.webp");
+        background-position: top center;
+        background-size: cover;
+        padding-top: 230px;
+        padding-bottom: 20px;
+    }
+    .sessao-1 .sessao-1-alinhamento{
+        align-items: center;
+        justify-items: center;
+    }
+    .sessao-1 h2{
+        font-family: Sora, sans-serif;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+        width: 100%;
+    }
+    .sessao-1 .texto1{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .sessao-1 .alinhamento-2{
+        align-items: center;
+    }
+    .sessao-1 .cta-button {
+        padding: 20px 40px 20px 40px;
+    }
+    .sessao-1 .img-title{
+        height: 34px;
+    }
+}
+/* -------------------------------------------- */
 
 /* Estilo - Sessão 2 */
 .sessao-2{
@@ -164,6 +313,42 @@ body {
 .sessao-3 .text-1 span{
     color: red;
 }
+.sessao-3 .text-2{
+    text-align: center;
+    font-family: "Sora", Sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 100;
+    color: #FFF7EB;
+}
+
+@media (max-width: 576px) {
+    .sessao-3 .img-title{
+        height: 16px;
+    }
+    .sessao-3 h2{
+        font-family: "Sora", Sans-serif;
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .sessao-3 .col{
+        width: auto;
+        padding: 10px;
+    }
+    .sessao-3 .text-1{
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .sessao-3 .img-1{
+        height: 20px;
+    }
+    .sessao-3 .text-2{
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
 /* -------------------------------------------- */
 
 /* Estilo - Sessão 4 */
@@ -228,6 +413,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .sessao-4 .cta-button:hover {
@@ -272,6 +458,40 @@ body {
 }
 .sessao-4 .img-1{
     height: 24px;
+}
+
+@media (max-width: 576px) {
+    .sessao-4{
+        padding-top: 0px;
+        padding-bottom: 120px;
+    }
+    .sessao-4 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: auto;
+    }
+    .sessao-4 p{
+        font-family: "Sora", Sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        width: auto;
+    }
+    .sessao-4 .col{
+        width: auto;
+        padding: 10px;
+    }
+    .sessao-4 .col .alinhamento-interno-2{
+        width: auto;
+    }
+    .sessao-4 .img-1{
+        height: 18px;
+    }
+    .sessao-4 .alinhamento-interno{
+        width: 100%;
+    }
+    .sessao-4 .cta-button {
+        padding: 20px 40px 20px 40px;
+    }
 }
 /* -------------------------------------------- */
 
@@ -423,6 +643,44 @@ body {
     font-weight: 100;
     color: #FFF7EB;
 }
+@media (max-width: 576px) {
+    .sessao-5 .img-title{
+        height: 16px;
+    }
+    .sessao-5 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .sessao-5 .alinhamento-interno{
+        flex-direction: column;
+    }
+    .sessao-5 .col-1, .sessao-5 .col-2{
+        width: auto;
+    }
+    .sessao-5 .col-1 .alinhamento-interno-2{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .sessao-5 .col-1 .img-flecha{
+        margin-top: -26px;
+    }
+    .sessao-5 .col-1 .text-3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sessao-5 .col-2 .text-3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sessao-5 .col-2 .alinhamento-interno-2{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .sessao-5 .col-2 .img-flecha{
+        margin-top: -25px;
+    }
+}
 
 /* -------------------------------------------- */
 
@@ -490,6 +748,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .sessao-7 .cta-button:hover {
@@ -505,6 +764,24 @@ body {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
+}
+@media (max-width: 576px) {
+    .sessao-7 img{
+        height: 16px;
+    }
+    .sessao-7 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%
+    }
+    .sessao-7 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+    .sessao-7 .cta-button {
+        padding: 20px 40px 20px 40px;
+    }
 }
 /* -------------------------------------------- */
 
@@ -571,6 +848,33 @@ body {
     line-height: 24px;
     font-weight: 100;
     color: #FFF7EB;
+}
+@media (max-width: 576px) {
+    .sessao-8 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .sessao-8 .img-1{
+        width: 200px;
+    }
+    .sessao-8 .img-2{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .sessao-8 .box{
+        width: auto;
+        padding: 20px;
+    }
+    .sessao-8 .text-1{
+        font-size: 22px;
+    }
+    .sessao-8 .text-2{
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 /* -------------------------------------------- */
 
@@ -739,6 +1043,7 @@ body {
     text-align: center;
     font-family: "Sora", Sans-serif;
     font-size: 14px;
+    line-height: 18px;
     font-weight: 600;
     color: #8F8F8F;
     margin-top: 20px;
@@ -758,6 +1063,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .sessao-9 .cta-button:hover {
@@ -848,6 +1154,92 @@ body {
     text-decoration: none;
     color: #292929;
 }
+@media (max-width: 576px) {
+    .sessao-9 .alinhamento-interno{
+        flex-direction: column;
+    }
+    .sessao-9 .img-title{
+        height: 16px;
+    }
+    .sessao-9 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: 240px;
+        margin-bottom: 40px;
+    }
+    .sessao-9 .logo-col{
+        width: 180px;
+    }
+    .sessao-9 .col-1 .espacamento{
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+    .sessao-9 .col-1 .text-1{
+        text-align: center;
+    }
+    .sessao-9 .col-1 .text-2{
+        text-align: center;
+        width: 200px;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sessao-9 .col-1 .text-3{
+        font-size: 12px;
+    }
+    .sessao-9 .col-1 .text-4{
+        font-size: 14px;
+    }
+    .sessao-9 .col-1 .text-5{
+        font-size: 14px;
+    }
+    .sessao-9 .col-1 .text-6{
+        font-size: 14px;
+    }
+    .sessao-9 .cta-button {
+        padding: 20px 40px 20px 40px;
+    }
+    .sessao-9 .col-1 .text-8{
+        width: 200px;
+    }
+    .sessao-9 .col-2{
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sessao-9 .col-2 .espacamento{
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+    .sessao-9 .col-2 .text-1{
+        text-align: center;
+    }
+    .sessao-9 .col-2 .text-2{
+        text-align: center;
+        width: 200px;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sessao-9 .col-2 .text-3{
+        font-size: 12px;
+    }
+    .sessao-9 .col-2 .text-4{
+        font-size: 14px;
+    }
+    .sessao-9 .col-2 .text-5{
+        font-size: 14px;
+    }
+    .sessao-9 .col-2 .text-6{
+        font-size: 14px;
+    }
+    .sessao-9 .cta-button-2 {
+        padding: 20px 40px 20px 40px;
+    }
+    .sessao-9 .col-2 .text-8{
+        width: 200px;
+    }
+}
 /* -------------------------------------------- */
 
 /* Estilo - Sessão 10 */
@@ -904,6 +1296,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .sessao-10 .cta-button:hover {
@@ -919,6 +1312,24 @@ body {
     0% { transform: scale(1); }
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
+}
+@media (max-width: 576px) {
+    .sessao-10 img{
+        height: 16px;
+    }
+    .sessao-10 h2{
+        font-size: 22px;
+        line-height: 28px;
+        width: 100%
+    }
+    .sessao-10 p{
+        font-size: 14px;
+        line-height: 20px;
+        width: 300px;
+    }
+    .sessao-10 .cta-button {
+        padding: 20px 40px 20px 40px;
+    }
 }
 /* -------------------------------------------- */
 
@@ -938,7 +1349,7 @@ body {
     text-align: left;
     font-family: "Sora", Sans-serif;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 100;
     color: #FFF7EB;
     line-height: 24px;
 }
@@ -947,6 +1358,25 @@ body {
     font-size: 31px;
     font-weight: 700;
     color: #C40003;
+}
+@media (max-width: 576px) {
+    .sessao-11{
+        background-image: url("assets/08-DOBRA-MOBILE-IMERSAO-REAPROXIMACAO-scaled.webp");
+    }
+    .sessao-11 .largura-coluna{
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 560px;
+    }
+    .sessao-11 p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sessao-11 p span{
+        font-size: 22px;
+    }
+
 }
 /* -------------------------------------------- */
 
